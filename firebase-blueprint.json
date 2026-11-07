@@ -1,0 +1,41 @@
+{
+  "entities": {
+    "users": {
+      "path": "users/{userId}",
+      "description": "User profiles, credentials, mock test results, resumes, bookmarks, and device sync telemetry",
+      "fields": {
+        "userId": { "type": "string" },
+        "fullName": { "type": "string" },
+        "email": { "type": "string" },
+        "mobileNumber": { "type": "string" },
+        "fullAddress": { "type": "string" },
+        "dob": { "type": "string" },
+        "gender": { "type": "string" },
+        "qualification": { "type": "string" },
+        "role": { "type": "string" },
+        "plan": { "type": "string" },
+        "deviceName": { "type": "string" },
+        "androidVersion": { "type": "string" },
+        "appVersion": { "type": "string" },
+        "installDate": { "type": "string" },
+        "lastLoginDate": { "type": "string" },
+        "cityLocation": { "type": "string" },
+        "mockTestScore": { "type": "number" },
+        "atsScore": { "type": "number" },
+        "bookmarkedQuestionIds": { "type": "array" },
+        "resumeJson": { "type": "string" }
+      }
+    },
+    "export_logs": {
+      "path": "export_logs/{logId}",
+      "description": "Security audit logs for Google Sheet, CSV, and XLS exports",
+      "fields": {
+        "logId": { "type": "string" },
+        "exportType": { "type": "string" },
+        "exportedBy": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "totalRecords": { "type": "number" }
+      }
+    }
+  }
+}

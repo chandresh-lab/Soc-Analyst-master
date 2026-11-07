@@ -1,0 +1,6 @@
+{
+  "name": "SOC Master",
+  "description": "Security Operations Center Preparation app with SOC career roadmaps, ATS resume builder, 500+ Q&A, SIEM queries, mock tests, and AI interview prep.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
